@@ -1,4 +1,5 @@
 # Solar-Prediction-With-ML
+## Description
 Use weather and sky image data to make solar prediction with RNN, ANN, and linear model
 Solar Power is a fluctuating energy. This variability can do harm to the grid with existing electricity. If we can predict the immediate power, not only can solar power plant utilize battery beforehand to balance the fluctuation of Solar power, but also the utility management system (like ​Taipower Company​) can correctly schedule spinning reserves and demand response. 
  
@@ -11,3 +12,5 @@ In intra hour forecast, there are two dominant input mainly use in current thesi
    2. solar elevation
    3. weather data The most popular model used is ANN and there are few literature use RNN to compare over ANN. Thus, our team design experiments to achieve two goals, one is to analyze the performance of RNN and pick Linear model and ANN as our comparison models. sky image and Meteorological input to predict solar irradiance. Then,we will do some comparison and discussion on which model performs better in terms of accuracy. 
 
+## Environment Requirement
+Please install Anaconda and create a new environment which is installed Keras, Tensorflow, Scikit-learn, Pandas, Numpy.
