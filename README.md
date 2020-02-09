@@ -18,7 +18,7 @@ Please install Anaconda and create a new environment which is installed Keras, T
 2. Weather.csv: https://drive.google.com/file/d/1A-H0ogyn7rk75DQhbnx3xNx7AXXNmFRk/view?usp=sharing
 3. Sky_image: https://drive.google.com/file/d/1fBbnYIIqH2Xm88PiYUM3u_aGA88fTYWO/view?usp=sharing
 
-Then, change the global variable "dir" into the directory of the required data in the Experiement1_Weather.ipynb and Experiment2_Sky_Image.ipynb. Execute in the Anaconda environment.
+Then, change the global variable `dir` into the directory of the required data in the Experiement1_Weather.ipynb and Experiment2_Sky_Image.ipynb. Execute in the Anaconda environment.
 
 ## Data Source
 In this research, we use the “comprehensive dataset for the accelerated development and benchmarking of solar forecasting methods” dataset provided by Hugo T. C. Pedroa, David P. Larsona, and  Carlos F. M. Coimbra. Below is the link of the possible dataset. https://zenodo.org/record/2826939#.XfM9uWQzZPZ
