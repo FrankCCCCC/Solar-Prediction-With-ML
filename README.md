@@ -1,6 +1,6 @@
 # Solar-Prediction-With-ML
 ## Description
-Use weather and sky image data to make solar prediction with RNN, ANN, and linear model
+#### Use weather and sky image data to make solar prediction with RNN, ANN, and linear model.
 Solar Power is a fluctuating energy. This variability can do harm to the grid with existing electricity. If we can predict the immediate power, not only can solar power plant utilize battery beforehand to balance the fluctuation of Solar power, but also the utility management system (like ​Taipower Company​) can correctly schedule spinning reserves and demand response. 
  
 There are currently different time span of prediction, intra hour, intra day, and day ahead, in which the forecast skill decrease when time span decrease.Thus, our group aims to maximize the accuracy of prediction of intra hour and we select forecasting horizons of 1 min, 5 min, 15 min, 60min.  
