@@ -7,6 +7,7 @@ There are currently different time span of prediction, intra hour, intra day, an
 In intra hour forecast, there are two dominant input mainly use in current thesis: 
 1. Sky Images
 2. Meteorological records: 
-   a. ghi/dni solar irradiance
-   b. solar elevation
-   c. weather data The most popular model used is ANN and there are few literature use RNN to compare over ANN. Thus, our team design experiments to achieve two goals, one is to analyze the performance of RNN and pick Linear model and ANN as our comparison models. sky image and Meteorological input to predict solar irradiance. Then,we will do some comparison and discussion on which model performs better in terms of accuracy. 
+   1. ghi/dni solar irradiance
+   2. solar elevation
+   3. weather data The most popular model used is ANN and there are few literature use RNN to compare over ANN. Thus, our team design experiments to achieve two goals, one is to analyze the performance of RNN and pick Linear model and ANN as our comparison models. sky image and Meteorological input to predict solar irradiance. Then,we will do some comparison and discussion on which model performs better in terms of accuracy. 
+
