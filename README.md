@@ -13,4 +13,9 @@ In intra hour forecast, there are two dominant input mainly use in current thesi
    3. weather data The most popular model used is ANN and there are few literature use RNN to compare over ANN. Thus, our team design experiments to achieve two goals, one is to analyze the performance of RNN and pick Linear model and ANN as our comparison models. sky image and Meteorological input to predict solar irradiance. Then,we will do some comparison and discussion on which model performs better in terms of accuracy. 
 
 ## Environment Requirement
-Please install Anaconda and create a new environment which is installed Keras, Tensorflow, Scikit-learn, Pandas, Numpy.
+Please install Anaconda and create a new environment which is installed Keras, Tensorflow, Scikit-learn, Pandas, Numpy. Download the following data:
+1. Irradiance.csv: https://drive.google.com/file/d/1G-AroW8qo3ivKllFv-VogjP-tdyinoM9/view?usp=sharing
+2. Weather.csv: https://drive.google.com/file/d/1A-H0ogyn7rk75DQhbnx3xNx7AXXNmFRk/view?usp=sharing
+3. Sky_image: https://drive.google.com/file/d/1fBbnYIIqH2Xm88PiYUM3u_aGA88fTYWO/view?usp=sharing
+Then, change the global variable "dir" into the directory of the required data in the Experiement1_Weather.ipynb and Experiment2_Sky_Image.ipynb. Execute in the Anaconda environment.
+
