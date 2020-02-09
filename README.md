@@ -27,7 +27,9 @@ In this research, we use the “comprehensive dataset for the accelerated develo
 ### Experiment 1
 In this experiment, we take current weather data and irradiance as input to predict future irradiance. For weather input, we take in ambient temperature,relative humidity, pressure, wind speed, wind direction, maximum wind speed, and precipitation. For irradiance, we take current GHI, DNI, DHI as input to predict future irradiance in GHI.
 
-![Alt text](Sky_Image_RNN/rnn_span60_step5.png)
+![Weather_New_ANN_span60_step5](Weather_New_ANN/Weather_New_ANN_span60_step5.png "The code will output the prediction of 1 week. Green line is predicted and blue line is the actual solar irradiance value. In this graph, we use ABB model to predict solar irradiance after 60 mins")
 
 ### Experiment 2
 For sky image experiment, we take in ghi, dni, clear sky irradiance, clear sky index, and sky image features. 
+
+![rnn_span60_step5](Sky_Image_RNN/rnn_span60_step5.png "The code will output the prediction of 1 week. Green line is predicted and blue line is the actual solar irradiance value. In this graph, we use RNN model to predict solar irradiance after 60 mins")
